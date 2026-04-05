@@ -6,6 +6,7 @@ import Portfolio from './Components/Portfolio';
 import Expertise from './Components/expertise';
 import Funfacts from './Components/Funfacts';
 import CaseThemes from './Components/CaseThemes';
+import UserFeedbacks from './Components/UserFeedbacks';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Expertise></Expertise>
       <Funfacts></Funfacts>
       <CaseThemes></CaseThemes>
+      <UserFeedbacks></UserFeedbacks>
     </>
   );
 };
