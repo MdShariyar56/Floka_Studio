@@ -8,6 +8,7 @@ import Funfacts from './Components/Funfacts';
 import CaseThemes from './Components/CaseThemes';
 import UserFeedbacks from './Components/UserFeedbacks';
 import ContactSection from './Components/ContactSection';
+import InnovationSection from './Components/InnovationSection';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <CaseThemes></CaseThemes>
       <UserFeedbacks></UserFeedbacks>
       <ContactSection></ContactSection>
+      <InnovationSection></InnovationSection>
     </>
   );
 };
