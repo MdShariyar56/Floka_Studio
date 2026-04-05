@@ -9,6 +9,7 @@ import CaseThemes from './Components/CaseThemes';
 import UserFeedbacks from './Components/UserFeedbacks';
 import ContactSection from './Components/ContactSection';
 import InnovationSection from './Components/InnovationSection';
+import TeamSection from './Components/TeamSection';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <UserFeedbacks></UserFeedbacks>
       <ContactSection></ContactSection>
       <InnovationSection></InnovationSection>
+      <TeamSection></TeamSection>
     </>
   );
 };
