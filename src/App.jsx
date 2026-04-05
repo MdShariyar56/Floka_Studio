@@ -13,6 +13,7 @@ import TeamSection from './Components/TeamSection';
 import FAQSection from './Components/FAQSection';
 import CardSection from './Components/InsightsGrid';
 import InsightsGrid from './Components/InsightsGrid';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <TeamSection></TeamSection>
       <FAQSection></FAQSection>
       <InsightsGrid></InsightsGrid>
+      <Footer></Footer>
     </>
   );
 };
