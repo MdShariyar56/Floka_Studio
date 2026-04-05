@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import HeroSection from './Components/HeroSection';
 import Pages from './Components/Pages';
 import Portfolio from './Components/Portfolio';
+import Expertise from './Components/expertise';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection></HeroSection>
       <Pages></Pages>
       <Portfolio></Portfolio>
+      <Expertise></Expertise>
     </>
   );
 };
