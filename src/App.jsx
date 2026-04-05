@@ -7,6 +7,7 @@ import Expertise from './Components/expertise';
 import Funfacts from './Components/Funfacts';
 import CaseThemes from './Components/CaseThemes';
 import UserFeedbacks from './Components/UserFeedbacks';
+import ContactSection from './Components/ContactSection';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Funfacts></Funfacts>
       <CaseThemes></CaseThemes>
       <UserFeedbacks></UserFeedbacks>
+      <ContactSection></ContactSection>
     </>
   );
 };
