@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 
 const Counter = ({ end, suffix = "", className = "" }) => {
   const [count, setCount] = useState(0);
@@ -50,7 +51,8 @@ const Counter = ({ end, suffix = "", className = "" }) => {
 };
 
 const Pages = () => {
-  const text = "PLAYFUL, LUXURIOUS, OR MORE / WANT IT TO SOUND ";
+  const texT = "PLAYFUL, LUXURIOUS, OR MORE / WANT IT TO SOUND ";
+  const text = "combines creativity, technology ";
 
   return (
     <section className="bg-[#F8F8F8] pt-6 md:pt-16 pb-6 px-6 md:px-16 text-gray-900">
@@ -66,7 +68,7 @@ const Pages = () => {
                   />
                 </defs>
                 <text className="text-[6px] uppercase font-semibold fill-gray-400 tracking-[2px]">
-                  <textPath href="#circlePath">{text}</textPath>
+                  <textPath href="#circlePath">{texT}</textPath>
                 </text>
               </svg>
             </div>
@@ -196,6 +198,34 @@ const Pages = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="relative w-full overflow-hidden py-12 my-6 ">
+        <motion.div
+          className="flex whitespace-nowrap"
+          animate={{
+            x: [0, -1000],
+          }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 10,
+              ease: "linear",
+            },
+          }}
+        >
+          {[...Array(6)].map((_, i) => (
+            <h1
+              key={i}
+              className="text-4xl md:text-8xl font-semibold text-gray-800 uppercase tracking-tighter mx-4"
+            >
+              {text}
+            </h1>
+          ))}
+        </motion.div>
+
+        <div className="absolute inset-y-0 left-0 w-20  z-10"></div>
+        <div className="absolute inset-y-0 right-0 w-20  z-10"></div>
       </div>
     </section>
   );
