@@ -10,6 +10,7 @@ import UserFeedbacks from './Components/UserFeedbacks';
 import ContactSection from './Components/ContactSection';
 import InnovationSection from './Components/InnovationSection';
 import TeamSection from './Components/TeamSection';
+import FAQSection from './Components/FAQSection';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <ContactSection></ContactSection>
       <InnovationSection></InnovationSection>
       <TeamSection></TeamSection>
+      <FAQSection></FAQSection>
     </>
   );
 };
