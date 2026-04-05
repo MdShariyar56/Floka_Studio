@@ -11,7 +11,7 @@ const Funfacts = () => {
   });
 
   return (
-    <div className="bg-[#f3f3f3] text-black">
+    <div className="bg-[#f3f3f3] text-black ">
       <div className="h-[20vh]" />
 
       <div
