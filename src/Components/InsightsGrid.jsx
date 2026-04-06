@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 
 const Card = ({ tag, date, title, image, isDark = false, reverse = false }) => {
   return (
-    <div className={`flex flex-col gap-3 group cursor-pointer h-full`}>
+    <div id="blog" className={`flex flex-col gap-3 group cursor-pointer h-full`}>
       <div
         className={`
         ${isDark ? "bg-[#0E0E10] text-white" : "bg-white text-black"} 

@@ -55,7 +55,10 @@ const Pages = () => {
   const text = "combines creativity, technology ";
 
   return (
-    <section className="bg-[#F8F8F8] pt-6 md:pt-16 pb-6 px-6 md:px-16 text-gray-900">
+    <section
+      id="page"
+      className="bg-[#F8F8F8] pt-6 md:pt-16 pb-6 px-6 md:px-16 text-gray-900"
+    >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 mb-16 items-start">
         <div className="md:col-span-3">
           <div className="relative flex items-center justify-center w-32 h-32 mb-4">
@@ -132,7 +135,7 @@ const Pages = () => {
 
         <div className="md:col-span-6 relative group overflow-hidden rounded-[40px] h-[500px]">
           <img
-            src="https://i.ibb.co/zHVB5Vdz/photo-1573496359142-b8d87734a5a2-1-removebg-preview-1.png"
+            src="https://imglink.cc/cdn/Lce9DD6tGT.png"
             alt="CEO"
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />

@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       id: 1,
       image:
-        "https://i.ibb.co/QFJtdBGp/2010-i123-005-car-headlights-AD-composition.jpg",
+        "https://imglink.cc/cdn/HwSbDplZty.jpg",
       brandName: "Aldan Branding",
       tags: ["Branding", "UK"],
       year: "2025",
@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       id: 2,
       image:
-        "https://i.ibb.co/jNCqWp1/3d-rendering-cartoon-person-with-vr-glasses.jpg",
+        "https://imglink.cc/cdn/9kG6hqhWsL.jpg",
       brandName: "Aldan Branding",
       tags: ["Logo Design", "USA"],
       year: "2025",
@@ -23,7 +23,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      image: "https://i.ibb.co/Kp308x6d/home1-bg-img3.webp",
+      image: "https://imglink.cc/cdn/t0utIEHVKn.webp",
       brandName: "Aldan Branding",
       tags: ["Creative Direction"],
       year: "2025",
@@ -50,7 +50,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section className="bg-white py-20 px-6 md:px-16 text-gray-900">
+    <section id="portfolio" className="bg-white py-20 px-6 md:px-16 text-gray-900">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <motion.p

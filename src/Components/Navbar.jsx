@@ -24,13 +24,13 @@ const Header = () => {
             <a className="hover:text-primary transition">Home</a>
           </li>
           <li>
-            <a className="hover:text-primary transition">Pages</a>
+            <a href="#page" className="hover:text-primary transition">Pages</a>
           </li>
           <li>
-            <a className="hover:text-primary transition">Portfolio</a>
+            <a href="#portfolio" className="hover:text-primary transition">Portfolio</a>
           </li>
           <li>
-            <a className="hover:text-primary transition">Blog</a>
+            <a href="#blog" className="hover:text-primary transition">Blog</a>
           </li>
         </ul>
       </div>
@@ -75,13 +75,13 @@ const Header = () => {
             <a className="hover:text-primary">Home</a>
           </li>
           <li>
-            <a className="hover:text-primary">Pages</a>
+            <a href="#page" className="hover:text-primary">Pages</a>
           </li>
           <li>
-            <a className="hover:text-primary">Portfolio</a>
+            <a href="#portfolio"  className="hover:text-primary">Portfolio</a>
           </li>
           <li>
-            <a className="hover:text-primary">Blog</a>
+            <a href="#blog" className="hover:text-primary">Blog</a>
           </li>
         </ul>
       </div>
