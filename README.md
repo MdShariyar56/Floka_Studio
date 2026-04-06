@@ -1,16 +1,69 @@
-# React + Vite
+# 🚀 Floka – Modern UI/UX Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and highly animated **React.js + Tailwind CSS** website built to showcase premium UI/UX design skills, smooth interactions, and production-level frontend structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Overview
 
-## React Compiler
+**Floka** is a creative agency-style landing page built with a focus on:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Clean design system
+- Smooth animations
+- Responsive layouts
+- Reusable React components
 
-## Expanding the ESLint configuration
+This project demonstrates strong frontend skills and modern UI practices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Key Features
+
+- ⚡ Fully responsive (Mobile, Tablet, Desktop)
+- 🎨 Modern UI with Tailwind CSS
+- 🎞️ Smooth animations using Framer Motion
+- 🧩 Modular & reusable components
+- 🖼️ Advanced hover effects on cards & images
+- 📱 Mobile-first design approach
+- 🔥 Premium footer with animated CTA
+- 💡 Interactive sections (FAQ, Insights, Cards)
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js ⚛️
+- Tailwind CSS 🎨
+- Framer Motion 🎞️
+- React Icons 🔥
+- Lucide Icons 🧩
+- Vite ⚡
+
+---
+
+
+# Github Repo: https://github.com/MdShariyar56/Floka_Studio
+
+# Live Link: https://floka-studio-five.vercel.app/
+
+## Run Instructions (Locally)
+
+Make sure you have **Node.js** installed.
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/MdShariyar56/Floka_Studio
+cd Floka_Studio
+```
+
+2. **Install dependencies:**
+
+npm install
+
+3. **Start development server:**
+
+npm run build
+
+4. **Run VsCode:**
+
+npm run dev
